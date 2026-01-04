@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <audio id="bgm" src="../assets/sound/omelogin.mp3" autoplay loop></audio>
+    <audio id="bgm" src="../assets/sound/Homelogin.mp3" autoplay loop></audio>
 
     <script>
         const bgm = document.getElementById("bgm");
@@ -16,7 +16,7 @@
             e.preventDefault();
             const nama = document.getElementById("username").value;
             localStorage.setItem("nama", nama);
-            window.location.href = "../home/home.html";
+            window.location.href = "/home/home.html";
         }
     </script>
 
@@ -30,4 +30,5 @@
         </form>
     </div>
 </body>
+
 </html>

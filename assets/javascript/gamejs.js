@@ -24,11 +24,11 @@
   }
 
   nextButton.addEventListener("click", () => {
-  window.location.href = "/pagesGames/game2.html";
+  window.location.href = "pagesGames/game2.html";
 });
 
   stopButton.addEventListener("click", () => {
-  window.location.href = "/home/home.html";
+  window.location.href = "home/home.html";
 });
 
  tryButton.addEventListener("click", () => {
@@ -37,3 +37,4 @@
   tryButton.style.display = "none";
   stopButton.style.display = "none";
 });
+

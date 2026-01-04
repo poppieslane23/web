@@ -3,20 +3,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Awal</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <audio id="bgm" src="../assets/sound/Homelogin.mp3" autoplay loop></audio>
+    <audio id="bgm" src="/assets/sound/Homelogin.mp3" autoplay loop></audio>
 
     <script>
         const bgm = document.getElementById("bgm");
-        bgm.volume = 0.5;
+        bgm.volume = 0.2;
 
         function login(e) {
             e.preventDefault();
             const nama = document.getElementById("username").value;
             localStorage.setItem("nama", nama);
-            window.location.href = "/home/home.html";
+            window.location.href = "./home/home.html";
         }
     </script>
 
@@ -30,5 +30,4 @@
         </form>
     </div>
 </body>
-
 </html>

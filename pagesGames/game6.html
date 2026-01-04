@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Quiz</title>
+  <link rel="stylesheet" href="../assets/css/game6css.css">
+</head>
+<body>
+    <div class="cabut">
+        <a href="../home/home.html" class="buttonstart">Keluar</a>
+    </div>
+
+  <div class="quiz-box">
+    <h2 id="question">6. Perubahan wujud dari air menjadi es disebut ...?</h2>
+
+    <div class="answers">
+      <button type="button" onclick="checkAnswer(0)">Mencair</button>
+      <button type="button" onclick="checkAnswer(1)">Menguap</button>
+      <button type="button" onclick="checkAnswer(2)">Membeku</button>
+      <button type="button" onclick="checkAnswer(3)">Mengembun</button>
+    </div>
+
+    <img id="leafImage" src="../assets/images/esbeku.png" alt="leaf" />
+    <p id="feedback"></p>
+    <button id="stopButton">Berhenti</button>
+    <button id="nextButton" type="button">Lanjut</button>
+    <button id="tryButton">Coba Lagi</button>
+  </div> 
+
+  <script src="../assets/javascript/game6js.js"></script>
+</body>
+</html>

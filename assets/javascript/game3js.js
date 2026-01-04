@@ -28,7 +28,7 @@
 });
 
   stopButton.addEventListener("click", () => {
-  window.location.href = "/home/home.html";
+  window.location.href = "../home/home.html";
 });
 
   tryButton.addEventListener("click", () => {
@@ -37,4 +37,5 @@
   tryButton.style.display = "none";
   stopButton.style.display = "none";
 });
+
 

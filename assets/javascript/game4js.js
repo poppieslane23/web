@@ -24,7 +24,7 @@
   }
 
   nextButton.addEventListener("click", () => {
-  window.location.href = "/pagesGames/game5.html";
+  window.location.href = "game5.html";
 });
 
   stopButton.addEventListener("click", () => {
@@ -37,3 +37,4 @@
   tryButton.style.display = "none";
   stopButton.style.display = "none";
 });
+

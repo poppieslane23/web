@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Awal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bgm" src="Homelogin.mp3" autoplay loop></audio>
+
+    <script>
+        const bgm = document.getElementById("bgm");
+        bgm.volume = 0.3;
+
+        function login(e) {
+            e.preventDefault();
+            const nama = document.getElementById("username").value;
+            localStorage.setItem("nama", nama);
+            window.location.href = "home.html";
+        }
+    </script>
+
+    <div class="box">
+        <h2>SELAMAT DATANG ILMUWAN CILIK!</h2>
+        <h5>yuk masukkan nama kamu dulu😊</h5>
+
+        <form onsubmit="login(event)">
+            <input type="text" id="username" placeholder="Nama kamu" required>
+            <button type="submit">Mulai Petualangan!</button>
+        </form>
+    </div>
+</body>
+</html>
